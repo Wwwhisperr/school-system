@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* header */
+header {
+    height: 50px;
+    background-color: #fff;
+    /* border-bottom: 1px solid #bbb; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+}
+header span {
+    padding-left:20px;
+    font-weight: 600;
+    color: #3e6afc;
+}
+header div {
+    display: flex;
+    justify-content: flex-end;
+}
+header div a {
+    text-decoration: none;
+    padding: 10px;
+    font-size: small;
+    color: rgb(153, 153, 153);
+}
+header div a:hover {
+    color: #3e6afc;
+}
+/* nav */
+nav {
+    position: fixed;
+    top:50px;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    box-shadow: #bbb 0 10px 20px;
+    margin-top: 10px;
+}
+
+.player {
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    box-shadow: #bbb 0 10px 20px;
+    border-radius: 10%;
+    z-index: 100;
+    position: relative;
+    top: -10px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    align-content:center;
+    
+}
+.avatar {
+    width: 70px;
+    height: 70px;
+    background-color: #bbb;
+    border-radius: 10%;
+    
+}
+.intro {
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: bold;
+    /* color: #3e6afc; */
+}
+.intro::after {
+    border: #3e6afc 1px solid;
+    color: #3e6afc;
+    font-size:small;
+    padding: 1px;
+    border-radius: 10%;
+    content: '学生';
+}
+.job {
+    width: 200px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+.job a{
+    text-decoration: none;
+    list-style: none;
+    color:rgb(88, 88, 88);
+    /* padding: 1px; */
+    
+}
+.job li{
+    height: 35px;
+    width: 150px;
+    text-align: center;
+    line-height: 35px;
+}
+.job li:hover {
+    background-color: #efeded;
+    color: #3e6afc;
+}
+
+
+
+/* main */
+main {
+    height: 1000px;
+    padding: 50px 200px ;
+    /* background: #3e6afc; */
+}
